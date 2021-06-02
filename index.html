@@ -1,0 +1,41 @@
+<!doctype html>
+
+ <html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="shortcut icon" href="img/maior-menor.jpg"><!--chamando o ícone de atalho da página-->
+   <head>
+
+      <title>> , <</title>
+
+   </head>
+
+   <body> 
+
+            <h1 class="titulo">Maior / Menor or igual</h1>
+
+         <form id="trs" name="frmPos">
+                                 <div class="boxone">
+                                 <strong>Digite um número</strong><br> 
+                                    <input type="text" name="txtNuma" size="16" placeholder="Escreva seu Número" required autofocus><br><br>
+                                 </div><!--Primeiro número-->
+
+                                 <div class="boxtwo">
+                                    <strong>Digite um número</strong><br>
+                                    <input type="text" name="txtNumb" size="18" placeholder="Escreva outro Número" required>
+                                 </div><!--Segundo número-->
+
+
+                                 <input class="botao" type="button" name="btnVerifica"  value="verificar" onclick="verifica()"><!--Botão-->
+                                 <br><br>
+                  
+                                    <strong>Resultado</strong> <br>
+                                    <input type="text" name="txtR" readonly placeholder="Resultado é"><!--Caixa de Resultado-->
+                     
+         </form>
+
+            <script type="text/javascript" src="js/test.js"></script><!--calling the javaScript-->
+
+   </body>
+ </html>
